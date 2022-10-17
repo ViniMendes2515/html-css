@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'Love';
+    src: url('../Fonts/Sketsa\ Ramadhan.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+    /*
+        Tipos de format()
+        -opentype (otf)
+        -truetrype (ttf)
+        -embedded-opentype
+        -truetype-aat (Apple Advanced Typography)
+        -svg
+    */
+}
+
+h1{
+    font-family: 'Love';
+    font-size: 4em;
+}

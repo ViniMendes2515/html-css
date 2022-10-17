@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+body{
+    font-family:sans-serif;
+    /* Medidas Absolutas
+    cm, mm, in, px, pt, pc
+    
+    Medidas Relativas
+    em, ex, rem, vw, vh, %
+
+    Recomendado usar px e em
+    */
+    font-size: 1em;
+    /*
+    A fontes deve suportar essas 3 config
+
+    font-weight: lighter;
+    font-style: italic;
+    text-decoration: underline;
+    */
+}
+
+h1{
+    
+    /* Shorthand font
+
+    - font-style -> font-weight -> font-size -> font-family
+    font-size: 3em;
+    font-weight: bolder;
+    font-style: italic;
+    */
+
+    font: italic bolder 3em sans-serif; 
+}
+h2{
+    font: normal bold 2em sans-serif;
+}

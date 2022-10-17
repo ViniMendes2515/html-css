@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Áudios</title>
+</head>
+
+<body>
+    <h1>Inserindo Áudios em HTML</h1>
+    <p>Reproduzindo audio em html5</p>
+    <!-- <audio src="midia/warzone.mp3" controls autoplay></audio> -->
+
+    <!-- Formatos: MP3 WAV OGG-->
+
+    <audio preload="metadata" controls>
+         <source src="midia/warzone.mp3" type="audio/mpeg">
+         <source src="midia/warzone.ogg" type="audio/ogg">
+         <source src="midia/warzone.wav" type="audio/wav">
+         <p>Infelizmente seu navegador não é compatível com o áudio :(</p>
+         <br><a href="midia/warzone.mp3" download="warzone.mp3" type="audio/mpeg">Clique Aqui</a> para baixar o arquivo
+    </audio>
+
+
+    
+</body>
+</html>

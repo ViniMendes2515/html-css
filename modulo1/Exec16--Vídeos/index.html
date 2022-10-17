@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos</title>
+</head>
+<body>
+    <div>
+        <h1>Inserir Vídeos em HTML localmente</h1>
+        <p>Este vídeo esta hospedado no meu servidor</p>
+        <video width="200px" controls loop>
+            <source src="midia/video.m4v" type="video/mp4">
+            <source src="midia/video.webm" type="video/webm">
+            <p>Seu navegador não é compativel com o vídeo :( <a href="midia/video.m4v" download="video.m4v" >Clique aqui</a> para baixa-lo</p>
+        </video>
+    </div>
+    
+
+    <div>
+        <h1>Inserindo Vídeos em HTML Remotamente</h1>
+        <iframe width="500px" height="350px" src="https://www.youtube.com/embed/2iaPuUFIyMo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+</body>
+</html>

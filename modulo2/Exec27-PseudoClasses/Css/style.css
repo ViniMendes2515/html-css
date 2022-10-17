@@ -1,0 +1,15 @@
+div{
+    border: 1px solid black;
+    border-radius: 1rem;
+    width: 200px;
+    height: 200px;
+    background-color: antiquewhite;
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+div:hover{
+    background-color: rgb(156, 76, 76);
+}

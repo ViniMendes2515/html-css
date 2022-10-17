@@ -1,0 +1,76 @@
+body {
+  font-family: Archivo, sans-serif;
+  margin: 0;
+  background-color: dimgray;
+}
+
+header {
+  background-image: linear-gradient(to right, #f3dfc1, #ddbea8);
+  padding: 10px;
+  margin: 10px;
+  border-radius: 0.4rem;
+  text-align: center;
+  box-shadow: 0.4rem 0.4rem 0.4rem rgba(49, 46, 46, 0.233);
+}
+h1#pelota {
+  font-size: 3em;
+  text-shadow: 0.1rem 0.1rem 0.1rem rgba(75, 73, 73, 0.233);
+}
+
+nav {
+  padding: 3px;
+  font-size: 1.5em;
+}
+nav > a {
+  color: rgb(189, 102, 167);
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+nav > a:hover {
+  text-decoration: underline;
+}
+
+section#noticias {
+  color: black;
+  margin: 50px 100px;
+  background-color: white;
+  padding: 10px;
+  border-radius: 0.4rem 1rem;
+  box-shadow: 0.4rem 0.4rem 0.4rem rgba(49, 46, 46, 0.233);
+}
+h2#cond {
+  text-align: center;
+  font-size: 1.7em;
+  margin-top: 10px;
+}
+
+main {
+  text-align: justify;
+}
+
+p#ref {
+  text-align: center;
+  margin-bottom: 0;
+  padding-top: 20px;
+}
+footer {
+  background-color: black;
+  text-align: center;
+  color: white;
+  padding: 5px;
+  margin-bottom: 20px;
+}
+
+footer > p{
+  margin: 0px;
+}
+
+div#bola{
+  margin-top: 10px;
+  margin: auto;
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  border-radius: 50%;
+}

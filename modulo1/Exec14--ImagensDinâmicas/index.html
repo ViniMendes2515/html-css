@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="Img/ico-brazil.ico" type="image/x-icon">
+        <title>Imagens Dinâmicas</title>
+    </head>
+
+    <body>
+        <h1>Imagens Dinâmicas</h1>
+        <p>Abra o site em outros dispositivos ou diminua o tamanho do navegador</p>
+        <picture>
+            <!-- a tag <source> deve estar em ordem de tamanho-->
+            <source media="(max-width:750px )" srcset="Img/foto-p.png" type="image/png">
+            <source media="(max-width:1050px )" srcset="Img/foto-m.png" type="image/png">
+            <img src="Img/foto-g.png" alt="Imagem Flexível">          
+        </picture>
+
+    </body>
+</html>

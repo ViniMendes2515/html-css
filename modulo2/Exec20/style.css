@@ -1,0 +1,41 @@
+/*Representação Nominal */
+#t1{
+    background-color: blue;
+    color: white;
+}
+/*Representação RGB (Vermelho, Verde, Azul) */
+#t2{
+    background-color: rgb(0, 0, 255);
+    color: rgb(255, 255, 255);
+}
+/*Representação Hexadecimal */
+#t3{
+    background-color: #0000ff;
+    color: #ffffff;
+}
+/*Representação por HSL(Matiz, Saturação, Luminosidade) */
+#t4{
+    background-color: hsl(240, 100%, 50%);
+    color: hsl(0, 0%, 100%);
+}
+
+/* Color Theme Swatches in Hex */
+.Bege-1-hex { color: #D7C4A2; }
+.Bege-2-hex { color: #C5B48E; }
+.Bege-3-hex { color: #BAA172; }
+.Bege-4-hex { color: #B49156; }
+.Bege-5-hex { color: #865B34; }
+
+/* Color Theme Swatches in RGBA */
+.Bege-1-rgba { color: rgba(215, 196, 162, 1); }
+.Bege-2-rgba { color: rgba(197, 180, 142, 1); }
+.Bege-3-rgba { color: rgba(186, 161, 114, 1); }
+.Bege-4-rgba { color: rgba(180, 145, 86, 1); }
+.Bege-5-rgba { color: rgba(134, 91, 52, 1); }
+
+/* Color Theme Swatches in HSLA */
+.Bege-1-hsla { color: hsla(38, 39, 73, 1); }
+.Bege-2-hsla { color: hsla(41, 32, 66, 1); }
+.Bege-3-hsla { color: hsla(39, 34, 58, 1); }
+.Bege-4-hsla { color: hsla(37, 38, 52, 1); }
+.Bege-5-hsla { color: hsla(28, 44, 36, 1); }
