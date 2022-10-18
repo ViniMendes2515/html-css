@@ -1,15 +1,17 @@
-*{
-    margin: 0px;
-    padding: 0px;
+* {
+  margin: 0px;
+  padding: 0px;
 }
 
-body{
-    background-image: url(../Img/espaco.jpg);
+body {
+  background-image: url(../Img/espaco.jpg);
 }
 
-div{
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    padding-top: 12rem;
+div {
+  position: absolute;
+
+  top: 50%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
 }
