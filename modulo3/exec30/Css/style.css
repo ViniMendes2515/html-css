@@ -1,0 +1,29 @@
+body{
+    background-image: url(../img/wallpaper001.jpg);
+
+}
+
+div.quadrado {
+  border: 0.1rem solid black;
+  background-color: blanchedalmond;
+  width: 19rem;
+  height: 19rem;
+  display: inline-block;
+  border-radius: 0.3rem;
+}
+
+div#q1 {
+  background-color: lightskyblue;
+}
+
+div#q2 {
+  background-image: linear-gradient(
+    to top,
+    rgb(57, 57, 172),
+    rgba(102, 31, 102, 0.959)
+  );
+}
+
+div#q3{
+    background-image: url('../img/pattern003.png');
+}
