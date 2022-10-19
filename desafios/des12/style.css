@@ -26,14 +26,24 @@ header p{
     padding-bottom: 3rem;
 }
 
-div.art{
-    background-color: black;
+header a{
+    text-decoration: none;
+    color: #fff;
+    transition-duration: 1s;
+    padding: 0.3rem;
 }
+
+header a:hover{
+    border-radius: 0.3rem;
+    background-color: yellow;
+    color: black;
+    
+}
+
 
 p.cordel{
     font-family: 'Sriracha', cursive;
     font-size: 1.4em;
-    width: 248px;
     padding: 2rem;
     margin: 4rem 0rem 4rem 0rem;
 }
@@ -41,11 +51,17 @@ p.cordel{
 article.container-parallax{
     background-image: url(imagens/background001.jpg);
     background-size: cover;
-    background-position: center center;  
+    background-position: center center;
+    padding: 1rem 0rem 3rem 0rem; 
 }
 
 article.container-parallax p{
     background-color: rgba(0, 0, 0, 0.247);
     color: #fff;
+    
+}
 
+p#cordel-parallax{
+    padding: 1rem;
+    width: 278px;
 }
