@@ -10,15 +10,17 @@ root{
     --fonte-destaque:'Passion One', cursive;
     --fonte-cordel:'Sriracha', cursive;
 }
+
 header{
     text-align: center;
     background-color: black;
     color: #fff;
 }
 header h1{
-    font-size: 3em;
+    font-size: 3.5em;
     font-family: 'Passion One', cursive;;
     padding: 3rem 1rem 0.3rem 1rem;
+    font-variant: small-caps;
 }
 
 header p{
@@ -26,14 +28,14 @@ header p{
     padding-bottom: 3rem;
 }
 
-header a{
+a.link{
     text-decoration: none;
     color: #fff;
     transition-duration: 1s;
     padding: 0.3rem;
 }
 
-header a:hover{
+a.link:hover{
     border-radius: 0.3rem;
     background-color: yellow;
     color: black;
@@ -64,4 +66,19 @@ article.container-parallax p{
 p#cordel-parallax{
     padding: 1rem;
     width: 278px;
+}
+
+footer{
+    background-color: black;
+    color: #fff;
+    font-family: Archivo, sans-serif;
+    text-align: center;
+}
+
+footer p{
+    padding: 0.5rem;
+}
+
+footer a{
+    text-decoration: none;
 }
