@@ -6,9 +6,10 @@
     margin: 0rem;
     padding: 0rem;
 }
-root{
+:root{
     --fonte-destaque:'Passion One', cursive;
     --fonte-cordel:'Sriracha', cursive;
+    --font-normal: Arial, sans-serif;
 }
 
 header{
@@ -18,8 +19,8 @@ header{
 }
 header h1{
     font-size: 3.5em;
-    font-family: 'Passion One', cursive;;
-    padding: 3rem 1rem 0.3rem 1rem;
+    font-family: var(--fonte-destaque);
+    padding: 3rem 1rem 0rem 1rem;
     font-variant: small-caps;
 }
 
@@ -41,32 +42,49 @@ a.link:hover{
     color: black;
     
 }
-
-
-p.cordel{
-    font-family: 'Sriracha', cursive;
-    font-size: 1.4em;
-    padding: 2rem;
-    margin: 4rem 0rem 4rem 0rem;
+article{
+    padding: 10vh 0vh 10vh 0vh;
+    line-height: 3.1em;
+    padding-left: 2rem;
 }
 
-article.container-parallax{
+p.cordel{
+    font-family: var(--fonte-cordel);
+    font-size: 1.8em;
+
+}
+
+article.container-parallax1{
     background-image: url(imagens/background001.jpg);
     background-size: cover;
     background-position: center center;
-    padding: 1rem 0rem 3rem 0rem; 
+    padding-left: 2rem;
 }
 
-article.container-parallax p{
+article.container-parallax1 p{
+    display: inline-block;
     background-color: rgba(0, 0, 0, 0.247);
     color: #fff;
+    padding: 5px;
     
 }
 
-p#cordel-parallax{
-    padding: 1rem;
-    width: 278px;
+article.container-parallax2{
+    background-image: url(imagens/background002.jpg);
+    background-size: cover;
+    background-position: center center;
 }
+
+article.container-parallax2 p{
+    background-color: rgba(0, 0, 0, 0.247);
+    color: #fff;
+    display: inline-block;
+    padding: 5px;
+
+}
+
+
+
 
 footer{
     background-color: black;
