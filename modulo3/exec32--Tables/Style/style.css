@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+body{
+    font-family: Archivo;
+}
+
+td{
+    border: 1px solid black;
+    padding: 1rem;
+    text-align: center; /*Alinhamento Horizontal*/
+    vertical-align: middle; /*Alinhamento Vertical */
+}
+
+table{
+    width: 30rem;
+    height: 30rem;
+    border-collapse: collapse;
+}
+
+td.numero{
+    text-align: right;
+    vertical-align: bottom;
+}
+
