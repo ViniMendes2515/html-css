@@ -3,14 +3,18 @@ body{
 }
 
 table{
-    border-collapse: collapse;
-    width: 300px;
-    
+    border-collapse: collapse;  
 }
 
 
-td{
+td,th{
     border: 1px solid black;
-    padding: 0.7rem;
+    padding: 1.1rem;
     text-align: center;    
+}
+
+
+caption{
+    font-size: 2em;
+    font-weight: bold;
 }
