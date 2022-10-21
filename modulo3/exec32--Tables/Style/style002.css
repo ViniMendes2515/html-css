@@ -1,0 +1,42 @@
+body{
+    font-family: Archivo;
+}
+
+td,th{
+    border: 1px solid black;
+    padding: 1rem;
+    text-align: center; /*Alinhamento Horizontal*/
+    vertical-align: middle; /*Alinhamento Vertical */
+}
+
+table{
+    width: 500px;
+    border-collapse: collapse;
+    position: relative;
+
+}
+
+thead > tr > th{
+    position: sticky;
+    top: -1px;
+    background-color: rgb(71, 71, 71);
+}
+
+thead,tfoot{
+    background-color: rgb(78, 78, 78);
+    color: #fff;
+}
+
+td.num{
+    text-align: right;
+}
+
+caption{
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+tbody > tr:nth-child(2n){ /* Efeito Zebrado*/
+    background-color: lightgray;
+}
+

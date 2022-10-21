@@ -1,0 +1,16 @@
+body{
+    font-family: Archivo;
+}
+
+table{
+    border-collapse: collapse;
+    width: 300px;
+    
+}
+
+
+td{
+    border: 1px solid black;
+    padding: 0.7rem;
+    text-align: center;    
+}
