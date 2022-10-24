@@ -1,0 +1,40 @@
+body{
+    font-family: Archivo;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+th{
+    padding: 0.7rem;
+    border: 0.6px solid black;
+    text-align: center;
+}
+
+thead{
+    color: white;
+    background-color: rgb(85, 85, 85);
+}
+
+td{
+    border: 0.6px solid black;
+    text-align: center;
+}
+
+th.media{
+    text-align: left;
+    padding: 3px;
+
+}
+
+tbody > tr:nth-child(6n-1){ /* Efeito Zebrado*/
+    background-color: rgb(85, 85, 85);
+    color: white;
+}
+
+tbody > tr:nth-child(9n-1){ /* Efeito Zebrado*/
+    background-color: rgb(85, 85, 85);
+    color: white;
+}
+
