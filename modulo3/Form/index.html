@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Formulário</title>
+  </head>
+  <body>
+    <form action="#" method="get" target="_blank" autocomplete="off">
+      <p>O meu Formulário</p>
+      <p>
+        <label class="label" for="nome">Nome</label>
+        <input
+          type="text"
+          id="nome"
+          name="nome"
+          placeholder="Digite seu nome!"
+        />
+      </p>
+      <p>
+        <label for="nome">Sou um dev</label>
+        <input type="checkbox" id="dev" name="dev" />
+        <br/>
+        <label for="nome">Sou um dev</label>
+        <input type="checkbox" id="dev2" name="dev2" />
+        <br/>
+        <label for="nome">Sou um dev</label>
+        <input type="checkbox" id="dev3" name="dev3" />
+      </p>
+      <p>
+        Gênero: <br />
+        <label for="Feminino">Feminino</label>
+        <input type="radio" id="feminino" name="genero" />
+        <br/>
+        <label for="Masculino">Masculino</label>
+        <input type="radio" id="masculino" name="genero" />
+        <br/>
+        <label for="sem_genero">Sem gênero</label>
+        <input type="radio" id="nao-binario" name="genero" />
+      </p>
+
+      <p>
+        <label for="date">Date:</label>
+        <br>
+        <input type="date" id="date" name="date" value="2020-04-10T20:00"/>
+      </p>
+
+      <p>
+        <label for="datetime">Date:</label>
+        <br>
+        <input type="datetime-local" id="datetime" name="datetime" value="2020-04-10T20:00"/>
+      </p>
+
+      <p>
+        <label for="time">Time:</label>
+        <input type="time" id="time" name="time" value="20:00"/>
+      </p>
+
+      <p>
+        <label for="color">Escolha a cor:</label>
+        <input type="color" id="color" name="color" value="#0000FF"/>
+      </p>
+
+      <p>
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email"
+        placeholder="ex:amilton@hotmail.com" >
+      </p>
+
+      <p>
+        <label for="password">Senha:</label>
+        <input type="password" id="password" name="password" placeholder="Digite sua senha!" >
+      </p>
+
+
+      <p>
+        <label for="file">Sua foto:</label>
+        <input type="file" id="file" name="file" accept="image/*" multiple>
+      </p>
+
+      <p>
+        <label for="number">Number:</label>
+        <input type="number" id="number" name="number" placeholder="Digite um número" min="1" max="50">
+      </p>
+
+      <p>
+        <label for="range">Range</label>
+        <input type="range" name="range" id="range" min="0" max="10">
+        <datalist>
+          <option value="0"></option label="0%">
+          <option value="1"></option>
+          <option value="2"></option>
+          <option value="3"></option>
+          <option value="4"></option>
+          <option value="5"></option label="50%">
+          <option value="6"></option>
+          <option value="7"></option>
+          <option value="8"></option>
+          <option value="9"></option>
+          <option value="10"></optio label="100%">
+        </datalist>
+      </p>
+
+      <p>
+        <label for="url">URL</label>
+        <input type="url" name="url" id="url" placeholder="URL">
+      </p>
+
+      <p>
+        <label for="search">Search</label>
+        <input type="search" name="search" id="search" >
+      </p>
+
+      <p>
+        <label for="select">Seleciona as opções</label>
+        <select name="select" id="select">
+          <optgroup label="Teste1">
+            <option value="qualquer 1" label="valor1"></option>
+            <option value="qualquer 2" label="valor2"></option>
+            <option value="qualquer 3" label="valor3"></option>
+          </optgroup>
+          <optgroup label="Teste2">
+            <option value="qualquer 4" label="valor4"></option>
+            <option value="qualquer 5" label="valor5"></option>
+            <option value="qualquer 6" label="valor6"></option>
+          </optgroup>
+        </select>
+      </p>
+
+      <p>
+        <label for="search">Área de Texto</label>
+        <textarea name="" id="" cols="25" rows="4"></textarea>
+      </p>
+
+      <p>
+        <button type="reset">Reset</button>
+        <button type="submit">Enviar</button>
+      </p>
+    </form>
+  </body>
+</html>
